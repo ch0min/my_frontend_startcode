@@ -1,0 +1,59 @@
+
+
+/*** Styling the navbar ***/
+.topnav {
+    overflow: hidden;
+    background-color: #2f2f2f;
+    font-family: sans-serif;
+}
+
+/* CLASSNAME: active */
+.topnav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #ffffff;
+
+    transition: transform .2s;
+}
+
+.topnav a:hover {
+    background-color: #151515;
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+
+    transform: scale(1.1);
+}
+
+.topnav a.active {
+    margin-left: 2px;
+    background-color: #65a3a9;
+    color: #ffffff;
+
+}
+
+.topnav .login-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 6px;
+    margin-right: 10px;
+    background-color: #656565;
+    color: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+
+    transition: transform .2s;
+}
+
+.topnav .login-container button:hover {
+    background-color: #65a3a9;
+    transform: scale(1.2);
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+

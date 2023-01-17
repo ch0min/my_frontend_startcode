@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: sans-serif;
+  line-height: 24px;
+  font-weight: 400;
+
+  justify-content: center; /* center items horizontally, in this case */
+  align-items: center;     /* center items vertically, in this case */
+
+  color: black;
+  background-color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+.container {
+  width: 100%;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+/* FOOTER */
+.footer-right {
+  float: right;
+  margin-top: auto;
+  padding: 0 10px;
+}
+
+footer.container {
+  padding: 2.25em 0;
+  margin-top: 200px;
+  border-top: 1px solid rgb(219, 219, 219);
+}
